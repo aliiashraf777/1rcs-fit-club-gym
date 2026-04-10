@@ -8,7 +8,7 @@ import adidas from '/assets/adidas.png';
 import nike from '/assets/nike.png';
 import tick from '/assets/tick.png';
 
-
+ 
 const Reasons = () => {
     return (
         <section className="reasons" id="reasons">
