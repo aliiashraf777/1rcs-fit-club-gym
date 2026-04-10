@@ -1,0 +1,192 @@
+/* .testimonials {
+    
+} */
+
+.testi-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.testi-left {
+    flex: 2 2;
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.testi-content {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.testi-content>* {
+    margin: 0;
+}
+
+.testi-sub {
+    color: var(--orange);
+    font-size: 1.6rem;
+}
+
+.testi-main {
+    font-size: 4.8rem;
+}
+
+
+.testi-details {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.testi-details>* {
+    margin: 0;
+}
+
+.testi-para {
+    text-transform: none;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+
+/* testi-right */
+.testi-right {
+    flex: 1 1;
+    position: relative;
+}
+
+figure.testi-figure {
+    display: block;
+    margin: 0;
+    overflow: hidden;
+    width: 27rem;
+    height: 32rem;
+
+    position: absolute;
+    right: 13rem;
+    top: 4.8rem;
+}
+
+img.testi-img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in;
+}
+
+.testi-img:hover {
+    transform: scale(1.05);
+    cursor: grab;
+}
+
+.border-box {
+    width: 27rem;
+    height: 32rem;
+    border: 2px solid orange;
+
+    position: absolute;
+    right: 15.5rem;
+    top: 2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.testi-right:hover .border-box {
+    transform: scale(1.01);
+}
+
+.testiFig-gradient {
+    background: var(--planCard);
+    width: 27rem;
+    height: 30rem;
+
+    position: absolute;
+    top: 10rem;
+    right: 10rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.testi-right:hover .testiFig-gradient {
+    transform: scale(1.01);
+}
+
+.testi-arrows {
+    display: flex;
+    gap: 1.6rem;
+    position: absolute;
+    bottom: 0rem;
+    left: 5rem;
+}
+
+.testi-arrows img {
+    width: 2.4rem;
+    transition: all 0.3s ease-in;
+}
+
+.testi-arrows img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .testi-wrapper {
+        flex-direction: column;
+    }
+
+    .testi-left {
+        gap: 1rem;
+        padding: 2rem;
+    }
+
+    .testi-content {
+        gap: 1.5rem;
+    }
+
+    .testi-main {
+        font-size: 2.5rem;
+    }
+
+    .testi-para {
+        text-align: left;
+        line-height: 25px;
+    }
+
+    .testi-details {
+        gap: 2rem;
+    }
+
+    .testi-right {
+        position: relative;
+    }
+
+    figure.testi-figure {
+        position: relative;
+        /* right: 50%;
+        right: 0; */
+        transform: translateX(-50%);
+        left: 50%;
+    }
+
+    .border-box {
+        right: 3rem;
+    }
+
+    .testiFig-gradient {
+        left: 3rem;
+    }
+
+
+    .testi-arrows {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
