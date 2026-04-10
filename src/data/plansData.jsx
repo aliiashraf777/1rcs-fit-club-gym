@@ -1,5 +1,5 @@
 export const plansData = [
-  {
+  { 
     icon: (
       <svg
         width="15"
