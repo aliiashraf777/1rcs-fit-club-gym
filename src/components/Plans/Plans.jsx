@@ -1,7 +1,7 @@
 import './Plans.css';
 import { plansData } from '../../data/plansData';
 import whiteTick from '/assets/whiteTick.png'
-
+ 
 const Plans = () => {
     return (
         <section className="plans" id="plans">
