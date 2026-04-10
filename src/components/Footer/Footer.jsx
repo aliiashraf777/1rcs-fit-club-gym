@@ -3,7 +3,7 @@ import logo from '/assets/logo.png';
 import github from '/assets/github.png';
 import instagram from '/assets/instagram.png';
 import linkedIn from '/assets/linkedin.png';
-
+ 
 const Footer = () => {
     return (
         <section className="footer">
