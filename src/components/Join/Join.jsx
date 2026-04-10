@@ -1,5 +1,5 @@
 import './Join.css';
-
+ 
 const Join = () => {
     return (
         <section className="join" id="join">
