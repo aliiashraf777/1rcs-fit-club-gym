@@ -1,7 +1,7 @@
 import './Programs.css'
 import { programsData } from '../../data/programsData'
 import RigthArrow from '/assets/rightArrow.png'
-
+ 
 const Programs = () => {
     return (
         <section className="programs" id="programs">
