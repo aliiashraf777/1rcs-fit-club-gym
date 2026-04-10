@@ -2,7 +2,7 @@ import './Testimonials.css';
 import { testimonialsData } from '../../data/testimonialsData';
 import { useState } from 'react';
 import leftArrow from '/assets/leftArrow.png';
-import rightArrow from '/assets/rightArrow.png'
+import rightArrow from '/assets/rightArrow.png' 
 import { motion } from 'framer-motion';
 
 const Testimonials = () => {
